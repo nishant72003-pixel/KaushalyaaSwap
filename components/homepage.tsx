@@ -28,7 +28,7 @@ export function Navbar() {
         {/* Logo Section */}
         <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight text-primary hover:opacity-80 transition-opacity">
           <Image src="/logo.jpeg" alt="Logo" width={32} height={32} className="rounded-md" />
-          <span>SkillSwap</span>
+          <span>KaushalyaSwap</span>
         </Link>
 
         {/* Navigation Links */}
