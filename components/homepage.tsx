@@ -69,7 +69,7 @@ export function HeroSection() {
           <span className="text-primary">Learn what you love.</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Kaushalya Swap connects you with people who have the skills you want
+          Kaushalyaa Swap connects you with people who have the skills you want
           to learn -- and want to learn what you already know. A fair, free, and
           fulfilling exchange.
         </p>
@@ -188,7 +188,7 @@ export function CTASection() {
           Ready to swap your first skill?
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-pretty text-primary-foreground/80">
-          Join the Kaushalya Swap community and discover how knowledge flows
+          Join the Kaushalyaa Swap community and discover how knowledge flows
           freely when people come together.
         </p>
         <Button
@@ -212,9 +212,9 @@ export function Footer() {
     <footer className="border-t px-6 py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
         <div className="flex items-center gap-2">
-          <Repeat2 className="size-5 text-primary" />
+          <Image src="/logo.jpeg" alt="Logo" width={24} height={24} className="rounded-sm" />
           <span className="text-sm font-semibold text-foreground">
-            Kaushalya Swap
+            Kaushalyaa Swap
           </span>
         </div>
         <p className="text-sm text-muted-foreground">
