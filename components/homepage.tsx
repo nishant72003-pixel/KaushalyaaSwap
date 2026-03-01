@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import {
@@ -26,7 +27,7 @@ export function Navbar() {
         
         {/* Logo Section */}
         <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight text-primary hover:opacity-80 transition-opacity">
-          <Repeat2 className="size-6" />
+          <Image src="/logo.jpeg" alt="Logo" width={32} height={32} className="rounded-md" />
           <span>SkillSwap</span>
         </Link>
 
